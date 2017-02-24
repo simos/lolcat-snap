@@ -1,0 +1,15 @@
+name: lolcat-rust
+version: '20170226'
+summary: lolcat utility written in Rust
+description: |
+  lolcat-rust is a utility similar to the Unix "cat" command.
+  lolcat-rust adds rainbow colors to the text output.
+  The source code is available at https://github.com/ur0/lolcat
+
+grade: stable
+confinement: devmode
+
+parts:
+  my-part:
+    # See 'snapcraft plugins'
+    plugin: nil

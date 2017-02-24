@@ -1,0 +1,15 @@
+name: lolcat-c
+version: '20170226'
+summary: lolcat utility written in C
+description: |
+  lolcat-c is a utility similar to the Unix "cat" command.
+  lolcat-c adds rainbow colors to the text output.
+  The source code is available at https://github.com/jaseg/lolcat
+
+grade: stable
+confinement: devmode
+
+parts:
+  my-part:
+    # See 'snapcraft plugins'
+    plugin: nil

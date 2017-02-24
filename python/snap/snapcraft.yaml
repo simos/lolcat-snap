@@ -1,0 +1,15 @@
+name: lolcat-python
+version: '0.44'
+summary: lolcat utility written in Python
+description: |
+  lolcat-python is a utility similar to the Unix "cat" command. 
+  lolcat-python adds rainbow colors to the text output.
+  The source code is available at https://github.com/tehmaze/lolcat
+
+grade: stable
+confinement: devmode
+
+parts:
+  my-part:
+    # See 'snapcraft plugins'
+    plugin: nil
