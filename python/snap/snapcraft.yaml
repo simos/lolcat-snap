@@ -7,7 +7,7 @@ description: |
   The source code is available at https://github.com/tehmaze/lolcat
 
 grade: stable
-confinement: devmode
+confinement: strict
 
 apps:
   lolcat-python:

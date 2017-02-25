@@ -7,7 +7,7 @@ description: |
   The source code is available at https://github.com/cezarsa/glolcat
 
 grade: devel
-confinement: devmode
+confinement: strict
 
 apps:
   lolcat-go:
