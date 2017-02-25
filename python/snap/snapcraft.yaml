@@ -9,7 +9,12 @@ description: |
 grade: stable
 confinement: devmode
 
+apps:
+  lolcat-python:
+    command: lolcat
+
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  lolcat-python:
+    source: https://github.com/tehmaze/lolcat.git
+    source-tag: '0.44'
+    plugin: python

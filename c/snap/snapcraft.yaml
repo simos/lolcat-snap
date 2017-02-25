@@ -9,7 +9,14 @@ description: |
 grade: stable
 confinement: devmode
 
+apps:
+  lolcat-c:
+    command: lolcat
+  censor:
+    command: censor
+
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  lolcat-c:
+    source: https://github.com/jaseg/lolcat.git
+    plugin: make
+    make-parameters: [lolcat]

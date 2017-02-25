@@ -9,7 +9,11 @@ description: |
 grade: devel
 confinement: devmode
 
+apps:
+  lolcat-go:
+    command: glolcat.git
+
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  lolcat-go:
+    source: https://github.com/cezarsa/glolcat.git
+    plugin: go

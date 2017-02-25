@@ -9,7 +9,11 @@ description: |
 grade: stable
 confinement: devmode
 
+apps:
+  lolcat-rust:
+    command: lolcat
+
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  lolcat-rust:
+    source: https://github.com/ur0/lolcat.git
+    plugin: rust
