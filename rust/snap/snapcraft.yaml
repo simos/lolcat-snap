@@ -6,7 +6,7 @@ description: |
   lolcat-rust adds rainbow colors to the text output.
   The source code is available at https://github.com/ur0/lolcat
 
-grade: stable
+grade: devel
 confinement: strict
 
 apps:
