@@ -1,4 +1,5 @@
 name: lolcat-python
+base: core18 # the base snap is the execution environment for this snap
 version: '0.44'
 summary: lolcat utility written in Python
 description: |
@@ -16,5 +17,4 @@ apps:
 parts:
   lolcat-python:
     source: https://github.com/tehmaze/lolcat.git
-    source-tag: '0.44'
     plugin: python
