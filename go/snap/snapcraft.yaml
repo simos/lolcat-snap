@@ -1,4 +1,5 @@
 name: lolcat-go
+base: core18 # the base snap is the execution environment for this snap
 version: '20170226'
 summary: lolcat utility written in golang
 description: |
